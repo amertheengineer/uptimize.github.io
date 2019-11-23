@@ -158,7 +158,7 @@ jQuery(document).ready(function ($) {
 
 
   ///Coffee functions
-  var startNumber =  parseInt(Math.abs(initialDate - d) / 36e5 / 24 * 5);
+  var startNumber =  parseInt(Math.abs(initialDate - d) / 36e5 / 24 * 10);
   var coffeeCups = startNumber;
   function getCoffee()
   {
@@ -190,7 +190,7 @@ jQuery(document).ready(function ($) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 1) || 50;
     this.txt = '';
     this.tick();
     this.isDeleting = false;

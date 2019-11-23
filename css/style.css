@@ -72,7 +72,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #2dc997;
   color: #fff;
 }
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .member {
+    width: 100%;
+  }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -88,11 +93,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo {
+  
   float: left;
-
+  height: 20%;
   justify-content: center;
   margin-left: 20px;
-  margin-top: -25px;
+  margin-top: -40px;
 }
 #header #logo h1 {
   font-size: 36px;
@@ -110,9 +116,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-  padding-bottom: 50px;
-  width : 180px;
- 
+padding-bottom: 60px;
+width: 120px;
+height: 140px;
+padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -120,8 +127,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
   }
   #header #logo img {
-    margin-top: 10px;
-    max-height: 110px;
+    padding-top: 30px;
+    width: 120px;
+    height: 145px;
+    padding-bottom: 64px;
   }
 }
 
@@ -1198,7 +1207,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 5px;
   text-align: center;
 }
-
+#dro {
+  justify-content: center;
+  margin: auto;
+}
 #testimonials .owl-dot {
   display: inline-block;
   margin: 0 5px;
@@ -1207,6 +1219,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   background-color: #ddd;
 }
+
 
 #testimonials .owl-dot.active {
   background-color: #1bb1dc;
