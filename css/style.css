@@ -720,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 768px) {
   #about .about-container .background {
     min-height: 400px;
-     background: url(../img/trio.jpg); 
+     background: url(../img/trio\ o.jpg); 
     background-position: 60% top; 
     background-repeat: no-repeat;
     margin-bottom: 10px;
@@ -1054,7 +1054,50 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
 }
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
 
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #18d26e;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#contact .contact-info a {
+  color: #000;
+}
+
+#contact .contact-info a:hover {
+  color: #18d26e;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+  margin-bottom: 20px;
+}
 #contact #google-map {
   height: 300px;
   margin-bottom: 20px;
