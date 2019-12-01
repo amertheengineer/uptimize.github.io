@@ -733,7 +733,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
 }
 
-#about .about-container .title {
+#about .about-container .title, .title1  {
   color: #333;
   font-weight: 700;
   font-size: 32px;
@@ -742,6 +742,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   #about .about-container .title {
     padding-top: 15px;
+    
+  }
+}
+@media (max-width: 768px) {
+  #about .about-container .title1 {    
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
   }
 }
  
@@ -1080,6 +1089,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+.top-area.top-padding {
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	padding-top: 6px;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
+.top-area p {
+	margin-bottom: 10px;
+}
 #contact .contact-info a {
   color: #000;
 }
