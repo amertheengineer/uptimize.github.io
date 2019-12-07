@@ -77,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
   .member {
     width: 100%;
   }
+  #fit {
+    height: 20%;
+    padding-bottom: 20px;
+    width: 80%;
+  }
 }
 /*--------------------------------------------------------------
 # Header
@@ -1456,6 +1461,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
   cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  #fit {
+      height: 20%;
+  }
+}
+
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #13a456;
