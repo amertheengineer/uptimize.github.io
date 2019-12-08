@@ -297,6 +297,17 @@ h6 {
   background-size: cover;
   background-position: center;
 }
+.banner_holderImage5 {
+  height: 100%;
+  width: 115%;
+  position: relative;
+  background: url("../img/Prod.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#ex4{
+  min-height: 250px;
+}
 @media (max-width: 812px) {
   .banner_holder {
     width: 110%;
@@ -313,6 +324,9 @@ h6 {
   #ex3{
     min-height: 300px;
   }
+  #ex4{
+    min-height: 300px;
+  }
   .banner_holder2 {
     width: 110%;
     height: 400px;
@@ -324,6 +338,14 @@ h6 {
     width: 100%;
     position: relative;
     background: url("../img/SHKR\ LOGO\ BLACK\ \(1\).png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner_holderImage5 {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    background: url("../img/Prod.jpg") no-repeat;
     background-size: cover;
     background-position: center;
   }
