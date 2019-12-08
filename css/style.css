@@ -959,17 +959,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-/* #about .about-container .background {
-  min-height: 400px;
+#about .about-container .background {
+  min-height: 280px;
   background: url(../img/trio2.jpg);
   background-position: 40% top; 
   background-repeat: no-repeat;  
-} */
+}
 @media (min-width: 768px) {
   #about .about-container .background {
-    min-height: 600px;    
+    min-height: 400px;    
     background: url(../img/trio\ o.jpg);
-    background-position: 80% top;
+    background-position: 40% top;
     background-repeat: no-repeat;
     margin-bottom: 10px;    
   }
