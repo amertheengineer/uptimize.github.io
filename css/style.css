@@ -279,14 +279,14 @@ h6 {
 #ex {
   min-height: 250px;  
 }
-.banner_holderImage {
+/* .banner_holderImage {
   height: 100%;
   width: 115%;
   position: relative;
-  background: url("../img//CV\ COVER\ SHRINKWRAP+PRICE.jpg") no-repeat;
+  background: url("../img/") no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 .banner_holderImage4 {
   height: 100%;
   width: 115%;
