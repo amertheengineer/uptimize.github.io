@@ -1,0 +1,408 @@
+body {
+    background: #fff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #2dc997;
+  }
+  
+  a:hover,
+  a:active,
+  a:focus {
+    color: #2dca98;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  /* Prelaoder */ /*
+  #preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url("../img/preloader.svg") no-repeat center center;
+  }
+  */
+  
+  /* Back to top button */
+  .back-to-top {
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
+  }
+  
+  /* iphone 4 */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
+  }
+  
+  /* iphone 5 */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+  }
+  
+  /* iphone 6, 6s, 7, 8 */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  }
+  
+  /* iphone 6+, 6s+, 7+, 8+ */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    #fit {
+      height: 80%;
+      padding-bottom: 40px;
+      width: 70%;
+    }
+    #album {
+      height: 100%;
+      padding-bottom: 40px;
+      width: 65%;
+    }
+    #shakr {
+      height: 100%;
+      padding-bottom: 60px;
+  
+      width: 80%;
+  
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* iphone X */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    #album {
+      height: 100%;
+      padding-bottom: 40px;
+      width: 65%;
+    }
+    #shakr {
+      height: 100%;
+      padding-bottom: 60px;
+  
+      width: 80%;
+  
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  #fit {
+    height: 80%;
+    padding-bottom: 40px;
+    width: 90%;
+    margin: auto;
+  }
+  #album {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  #shakr {
+    height: 100%;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  /* iphone XR */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #fit {
+      height: 80%;
+      padding-bottom: 40px;
+      width: 70%;
+    }
+    #album {
+      height: 100%;
+      padding-bottom: 40px;
+      width: 65%;
+    }
+    #shakr {
+      height: 100%;
+      padding-bottom: 60px;
+  
+      width: 80%;
+  
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* iphone XS */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    #fit {
+      height: 80%;
+      padding-bottom: 40px;
+      width: 70%;
+    }
+    #album {
+      height: 100%;
+      padding-bottom: 40px;
+      width: 65%;
+    }
+    #shakr {
+      height: 100%;
+      padding-bottom: 60px;
+  
+      width: 80%;
+  
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* iphone XS Max */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    #fit {
+      height: 80%;
+      padding-bottom: 40px;
+      width: 70%;
+    }
+    #album {
+      height: 100%;
+      padding-bottom: 40px;
+      width: 65%;
+    }
+    #shakr {
+      height: 100%;
+      padding-bottom: 60px;
+  
+      width: 80%;
+  
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  
+  #header #logo {
+    float: left;
+    height: 20%;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -40px;
+  }
+  #header #logo h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 6px 0;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  #header #logo h1 a,
+  #header #logo h1 a:hover {
+    color: #fff;
+  }
+  
+  #header #logo img {
+    padding-bottom: 60px;
+    width: 120px;
+    height: 140px;
+    padding-top: 20px;
+  }
+  .banner_holder3 {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+  }
+  .banner_holder4 {
+    width: 100%;
+    height: 200px;
+    min-height: 190px;
+    position: relative;
+  }
+  .banner_holder {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+  }
+  .banner_holder2 {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+  }
+  #ex3 {
+    min-height: 250px;
+  }
+  #ex {
+    min-height: 250px;  
+  }
+  /* .banner_holderImage {
+    height: 100%;
+    width: 115%;
+    position: relative;
+    background: url("../img/") no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+  .banner_holderImage4 {
+    height: 100%;
+    width: 115%;
+    position: relative;
+    background: url("../img/TWO_FRIEND_LOGO.PNG") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner_holderImage2 {
+    height: 100%;
+    width: 115%;
+    position: relative;
+    background: url("../img/SHKR\ LOGO\ BLACK\ \(1\).png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner_holderImage3 {
+    height: 130%;
+    width: 112%;
+    position: relative;
+    background: url("../img/APP\ PNG.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner_holderImage5 {
+    height: 100%;
+    width: 115%;
+    position: relative;
+    background: url("../img/Prod.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #ex4{
+    min-height: 250px;
+  }
+  @media (max-width: 812px) {
+    .banner_holder {
+      width: 110%;
+      height: 320px;
+      min-height: 230px;
+      position: relative;
+    }
+    #ex {
+      min-height: 450px;
+    }
+    #ex2 {
+      min-height: 250px;
+    }
+    #ex3{
+      min-height: 300px;
+    }
+    #ex4{
+      min-height: 300px;
+    }
+    .banner_holder2 {
+      width: 110%;
+      height: 400px;
+      min-height: 80px;
+      position: relative;
+    }
+    .banner_holderImage2 {
+      height: 65%;
+      width: 100%;
+      position: relative;
+      background: url("../img/SHKR\ LOGO\ BLACK\ \(1\).png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .banner_holderImage4 {
+      height: 65%;
+      width: 100%;
+      position: relative;
+      background: url("../img/TWO_FRIEND_LOGO.PNG") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .banner_holderImage5 {
+      height: 90%;
+      width: 100%;
+      position: relative;
+      background: url("../img/Prod.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .banner_holderImage3 {
+      height: 90%;
+      width: 100%;
+      position: relative;
+      background: url("../img/APP\ PNG.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .banner_holderImage {
+      height: 80%;
+      position: relative;
+      background: url("../img//CV\ COVER\ SHRINKWRAP+PRICE.jpg") no-repeat;
+  
+      background-size: cover;
+      background-position: center;
+    }
+    #header #logo h1 {
+      font-size: 30px;
+    }
+    #header #logo img {
+      padding-top: 30px;
+      width: 120px;
+      height: 145px;
+      padding-bottom: 64px;
+    }
+    #shark {
+      max-width: 100%;
+      padding-left: 25px;
+      height: 100%;
+    }
+  }
+  
+  #header.header-fixed {
+    background: rgba(52, 59, 64, 0.9);
+    padding: 20px 0;
+    height: 72px;
+    transition: all 0.5s;
+  }
