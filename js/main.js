@@ -170,7 +170,7 @@ jQuery(document).ready(function ($) {
     coffeeCups += 1;
     document.getElementById("getCoffeeNum").innerHTML = coffeeCups;
   }
-   setInterval(getCoffee, 10000000);
+   setInterval(getCoffee, 100000000);
 
    //Initialize coffee to startNumber
    function noCoffee()
