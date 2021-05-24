@@ -163,7 +163,7 @@ jQuery(document).ready(function ($) {
 
 
   ///Coffee functions
-  var startNumber =  parseInt(Math.abs(initialDate - d) / 100e5 / 24 * 1);
+  var startNumber =  parseInt(Math.abs(initialDate - d) / 80e5 / 24 * 1);
   var coffeeCups = startNumber;
   function getCoffee()
   {
