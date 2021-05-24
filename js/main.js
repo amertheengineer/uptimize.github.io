@@ -163,14 +163,14 @@ jQuery(document).ready(function ($) {
 
 
   ///Coffee functions
-  var startNumber =  parseInt(Math.abs(initialDate - d) / 36e5 / 24 * 1);
+  var startNumber =  parseInt(Math.abs(initialDate - d) / 76e5 / 24 * 1);
   var coffeeCups = startNumber;
   function getCoffee()
   {
     coffeeCups += 1;
     document.getElementById("getCoffeeNum").innerHTML = coffeeCups;
   }
-   setInterval(getCoffee, 9000000);
+   setInterval(getCoffee, 10000000);
 
    //Initialize coffee to startNumber
    function noCoffee()
